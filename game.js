@@ -1,3 +1,7 @@
+let player = {//objects
+    Name :"Liam",
+    Amount :185
+ }
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -7,10 +11,6 @@ let messageEl = document.getElementById("message-el")
 let sumEL = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
- let player = {
-    Name :"Liam",
-    Amount :185
- }
 cashEl = document.getElementById("cash-el")
 cashEl.textContent = player.Name+" "+"$"+player.Amount
 function getRandomCard(){
